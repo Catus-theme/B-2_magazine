@@ -1,0 +1,59 @@
+extends  template/layout.pug
+block title
+  title :: Magazine Detail ::
+block append header
+block append btn 
+  a.fh5co-post-prev(href='#')
+    span
+      i.icon-chevron-left
+      | Prev
+  a.fh5co-post-next(href='#')
+    span
+      | Next
+      i.icon-chevron-right
+block append section
+  .container-fluid
+    .row.fh5co-post-entry.single-entry
+      article.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-12.col-xs-offset-0
+        figure.animate-box
+          img.img-responsive(src='public/images/single_1.jpg', alt='Image')
+        span.fh5co-meta.animate-box
+          a(href='/single') Magazine Category 
+        h2.fh5co-article-title.animate-box
+          a(href='/single') What is Catus? 
+        span.fh5co-meta.fh5co-date.animate-box Janury 20th, 2017
+        .col-lg-12.col-lg-offset-0.col-md-12.col-md-offset-0.col-sm-12.col-sm-offset-0.col-xs-12.col-xs-offset-0.text-left.content-article
+          .row
+            .col-lg-8.cp-r.animate-box
+              p
+                | 노마드 라이프를 꿈꾸는 메거진 작가입니다.
+                | 젊은 안목으로 세상을 바라보고자 합니다.
+                | 노마드 라이프를 꿈꾸는 메거진 작가입니다.
+                | 젊은 안목으로 세상을 바라보고자 합니다.
+                | 노마드 라이프를 꿈꾸는 메거진 작가입니다.
+                | 젊은 안목으로 세상을 바라보고자 합니다.
+                | 노마드 라이프를 꿈꾸는 메거진 작가입니다.
+                | 젊은 안목으로 세상을 바라보고자 합니다.
+              p 
+                | 디자인을 주 업무로 꾸미기를 좋아하고, 세계 여행이 꿈입니다.
+                | 디자인을 주 업무로 꾸미기를 좋아하고, 세계 여행이 꿈입니다.
+                | 디자인을 주 업무로 꾸미기를 좋아하고, 세계 여행이 꿈입니다.
+              p 
+                | 많은 글은 아니지만 작성해주세요. 
+                | 많은 글은 아니지만 작성해주세요. 
+                | 많은 글은 아니지만 작성해주세요. 
+                | 많은 글은 아니지만 작성해주세요. 
+            .col-lg-4.animate-box
+              .fh5co-highlight.right
+                h4 이슈 
+                p 
+                  | 오늘의 이슈나 강조하고자하는 내용을 입력해주세요.
+                  | 오늘의 이슈나 강조하고자하는 내용을 입력해주세요.
+                  | 오늘의 이슈나 강조하고자하는 내용을 입력해주세요.
+          .row.rp-b
+            .col-md-12.animate-box
+              blockquote
+                p
+                  | 지금은 남에게 기대어 무언가를 바라기보다는 스스로 나 자신을 돌아볼 줄 알아야하는 시기입니다. 그 시기를 아는자와 모르는 자는 시기질투를 할 것입니다.
+                  cite — 무념무상 
+block append footer

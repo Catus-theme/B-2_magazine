@@ -1,0 +1,35 @@
+{
+  "name": "freelancer_magazine",
+  "version": "1.0.0",
+  "description": "TITLE:  Magazine - Blog Free Responsive HTML5 template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-file-cache": "0.0.1",
+    "gulp-html2pug": "^1.1.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}

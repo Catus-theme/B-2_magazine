@@ -14,6 +14,6 @@ app.get('/', (req,res) => {
 app.get('/single', (req, res) => {
   res.render('single.html')
 })
-app.listen(3000, () => {
+app.listen(3004, () => {
   console.log('hello');
 })
